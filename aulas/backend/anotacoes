@@ -1,0 +1,28 @@
+
+Rota / Recurso
+
+Método HTTP:
+- GET: Buscar/listar informação do back-end
+- POST: Criar uma informação no back-end
+- PUT: Alterar uma informação no back-end
+- DELETE: Deletar uma informação no back-end
+
+Tipos de parâmetros:
+- Query Params: Parametros nomeados / enviados na rota após o simbolo Ex: "?name=Marcelo", normalmente servem para filtros, paginação
+- Route Params: Parametros utilizados para identificar recursos Ex: "/users/:id"
+- Request Body: Corpo da requisiçao, utilizado para criar ou alterar recursos
+
+- SQL: MySQL, MSSQL, Postgree, Sqlite, oracle
+- NoSQL: MongoDB, CounchDB, etc
+
+- Driver: Select * from users
+- Query Builder: table('users').select('*').where()
+
+Imsomnia
+nodemon (mudar package.json -no teste, "start": "nodemon src/index.js")
+
+http://knexjs.org/#Migrations
+Knex - npx knex init
+Knex - migration
+Knes - npx knex migrate:make create_ongs
+
