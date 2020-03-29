@@ -11,6 +11,7 @@ Tipos de parâmetros:
 - Query Params: Parametros nomeados / enviados na rota após o simbolo Ex: "?name=Marcelo", normalmente servem para filtros, paginação
 - Route Params: Parametros utilizados para identificar recursos Ex: "/users/:id"
 - Request Body: Corpo da requisiçao, utilizado para criar ou alterar recursos
+- Header
 
 - SQL: MySQL, MSSQL, Postgree, Sqlite, oracle
 - NoSQL: MongoDB, CounchDB, etc
@@ -24,5 +25,10 @@ nodemon (mudar package.json -no teste, "start": "nodemon src/index.js")
 http://knexjs.org/#Migrations
 Knex - npx knex init
 Knex - migration
-Knes - npx knex migrate:make create_ongs
+Knex - npx knex migrate:make create_ongs
+
+ESTUDAR
+Padrões de códigos: ESLint, Prettier
+Autenticação: JWT
+Styled Components
 
